@@ -1,0 +1,30 @@
+{
+  "name": "rocketleague-tracker",
+  "version": "1.0.0",
+  "description": "Track stats for Rocket League",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesosborne/rocketleague-tracker.git"
+  },
+  "author": "James Osborne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesosborne/rocketleague-tracker/issues"
+  },
+  "homepage": "https://github.com/jamesosborne/rocketleague-tracker#readme",
+  "dependencies": {
+    "concurrently": "^7.2.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
