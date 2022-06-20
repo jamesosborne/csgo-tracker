@@ -1,7 +1,7 @@
 {
-  "name": "rocketleague-tracker",
+  "name": "csgo-tracker",
   "version": "1.0.0",
-  "description": "Track stats for Rocket League",
+  "description": "Track stats for CSGO",
   "main": "server.js",
   "scripts": {
     "start": "node server",
