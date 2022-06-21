@@ -1,15 +1,18 @@
 <template>
   <div class="container">
     <Header />
+    <Search />
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
+import Search from './components/Search.vue'
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Search
   }
 }
 </script>
@@ -49,6 +52,7 @@ ul {
   background: var(--primary-color) url("./assets/ct.png") no-repeat top center;
 }
 
+
 .container {
   max-width: 960px;
   margin: 1rem auto;
@@ -71,7 +75,7 @@ input,
 select,
 textarea {
   display: block;
-  widows: 100%;
+  width: 100%;
   padding: 0.4rem;
   font-size: 1.2rem;
   border: 1px solid #ccc;
