@@ -1,18 +1,16 @@
 <template>
   <div class="container">
     <Header />
-    <Search />
+    <router-view />
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
-import Search from './components/Search.vue'
 export default {
   name: "app",
   components: {
-    Header,
-    Search
+    Header
   }
 }
 </script>
